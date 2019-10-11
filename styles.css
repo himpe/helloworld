@@ -1,9 +1,17 @@
-h1{	color: red;
+h1,h2,h3
+	{	color: red;
   	text-align: center;
   		}
 
-p{	color: blue;
+p{	color: black;
   	text-align: left;
   		}
+
+ol li {
+
+	color: red;
+	text-decoration: underline;
+
+	}
 
   	

@@ -1,2 +1,10 @@
-for j in range (4):
-	print(j)
+from hello2 import functie
+
+print(functie(10,4))
+
+
+def main():
+	print(300)
+
+if __name__ == "__main__":
+	main()

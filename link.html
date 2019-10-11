@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<style type="text/css">
+		ol>li {
+				color: blue;		/*this < sign toont aan dat deze style enkel van toepassing is op de ol niet 								de childeren*/
+				text-orientation: sideways;
+		}
+		button:hover {
+			background-color: orange;
+
+		}
+		a::before{
+			content: "\21d2 click here ";
+			font-weight: bold;
+			color: green;
+		}
+		p::selection{
+			color: green;
+			background-color: yellow;
+
+		}
+		@media (min-width: 1000px){
+			h1::before{
+				content: "Welcome to my website"
+
+			}
+		}
+		@media (max-width: 800px){
+			h1::before{
+				content: "Welcome"
+
+			}
+		.grid{
+			display: grid;
+  			grid-row-gap: 10px;
+  			grid-row-gap: 20px;
+  			grid-column-gap: : 30px;
+  			background-color: blue;
+  			padding: 20px;
+  			grid-template-columns: auto auto auto;
+		}
+		.grid-item{
+			background-color: white;
+			font-size: 20px;
+			padding: 20px;
+			grid-template-columns: auto auto auto;
+		}
+		.alert-primary{
+			background-color: green;
+		}
+		}	
+	</style>
+
+
+</head>
+<body>
+	<a href="https://www.google.com/">click here to go main </a>
+	 <button onclick="window.location.href = 'https://w3docs.com';">to go to w3 docs</button>
+
+	<ul>
+		<li><a href="#sec1">section 1</a></li>
+		<li><a href="#sec2">section 2</a></li>
+		<li><a href="#sec3">section 3</a></li>
+
+
+	</ul>
+
+	<h2 id="sec1">section 1</h2>
+	<p>bkdfkadjzfhklkadlfnddz.klkdaz
+	lkxjfakljxal;djl;jvak
+	lldkxldzl;fjdalkzjladjk</p>
+	
+	<h2 id="sec2">section 2</h2>
+	<p>bkdfkadjzfhklkadlfnddz.klkdaz
+		lkxjfakljxal;djl;jvak
+		lldkxldzl;fjdalkzjladjk
+	</p>	
+
+	<h2 id="sec3">section 3</h2>
+	<p>
+		bkdfkadjzfhklkadlfnddz.klkdaz
+		lkxjfakljxal;djl;jvak
+		lldkxldzl;fjdalkzjladjk
+	</p>
+
+	<ol>
+		<li>this is the first item</li>
+			<ul>
+				<li>this an sublist</li>
+				<li>this an sublist</li>
+				<li>this an sublist</li>
+
+
+			</ul>
+
+
+		<li>this is the second item</li>
+		<li>this is the third item</li>
+		<li>this is the 4 item</li>
+		<li>this is the 5 item</li>
+
+
+
+	</ol>
+
+
+	<h1></h1>
+	<h3>this is a header eith style from the style file</h3>
+	
+	<div class="grid">
+	  <div class="grid-item">1</div>
+	  <div class="grid-item">2</div>
+	  <div class="grid-item">3</div>
+	  <div class="grid-item">4</div>
+	  <div class="grid-item">5</div>
+	  <div class="grid-item">6</div>
+	  <div class="grid-item">7</div>
+	  <div class="grid-item">8</div>
+	  <div class="grid-item">9</div>
+	</div>
+
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+<div class="alert alert-secondary" role="alert">
+  A simple secondary alert—check it out!
+</div>
+
+</body>
+</html>
